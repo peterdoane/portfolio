@@ -1,0 +1,113 @@
+section.capabilities{
+  background: black;
+  color: white;
+  font-family: 'National';
+}
+
+.capabilities .capabilityList{
+  display: flex;
+  flex-direction: column;
+}
+
+.capabilities .capabilityList li{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
+
+.capabilities .capabilityList h3{
+  flex-basis: 50%;
+}
+
+.capabilities h2{
+  padding: 2rem 0;
+  font-size:  35px;
+}
+
+.capabilities .capabilityList p{
+  flex-basis: 50%;
+  font-family: 'GT';
+  font-size: 12px;
+  line-height: 22px;
+}
+
+@media(min-width:700px){
+  .capabilities .innerColumn{
+    display: flex;
+    flex-direction: row;
+    align-items:top;
+  }
+  .capabilities h2{
+    font-size:  35px;
+    padding: 0 0;
+  }
+  .capabilities .capabilityList{
+    flex-basis: 50%;
+  }
+  .capabilities .capabilityList p,
+  .capabilities .capabilityList h3{
+  }
+  .capabilities header{
+    flex-basis: 50%;
+  }
+}
+
+/*.capabilities {
+  background: #000;
+  color: #fff;
+  font-family: 'National';
+  font-size:  35px;
+  padding: 3em 1em;
+  box-sizing: content-box;
+  height: 70vh;
+}
+
+.skills{
+  font-size: 20px;
+  color: #fff;
+  background: #000;
+  width:50%;
+}
+
+.skill{
+  display: flex;
+      margin-top: -6px;
+}
+
+.skillTitle{
+  line-height: 35px;
+  margin-top: 12px;
+}
+
+.capabilities p {
+  font-family: 'GT';
+  font-size: 12px;
+  line-height: 22px;
+  width: 45%;
+}
+
+.capabilities h1{
+  width: 50%;
+  margin: 0;
+  line-height: 50px;
+  margin-left: 8%;
+  margin-top: 1%;
+  font-weight: 100;
+  letter-spacing: .04rem;
+}
+
+h2{
+  width: 40%;
+}
+ @media(max-width:600px) {
+   .skill{
+      font-size: 10px;
+   }
+ }
+
+ @media(min-width:600px) {
+   .capabilities{
+     display: flex;
+     align-items: flex-start;
+   }
+ }*/

@@ -1,0 +1,48 @@
+.services{
+  background-color: black;
+  color: white;
+}
+
+.services .innerContainer{
+  display: flex;
+  flex-direction: column
+}
+
+.services h2{
+  padding: 2rem 0;
+  font-size:  35px;
+}
+
+.services ul{
+  column-count: 2;
+}
+
+
+
+
+/*.services{
+  background-color: black;
+  display: flex;
+  height: 30vh;
+}
+
+.listing{
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 5em;
+}
+
+.services h1{
+  width: 25%;
+}
+
+.service{
+  width: 33%;
+  list-style: none;
+  font-family: 'GT';
+    font-size: 12px;
+    line-height: 22px;
+    width: 45%;
+}*/

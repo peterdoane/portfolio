@@ -1,0 +1,83 @@
+.siteHeader {
+  font-family: 'GT';
+  background-color: yellow;
+  position: absolute;
+  top:0;
+  left:0;
+  background: transparent;
+  color: white;
+  width: 100%;
+}
+
+.siteHeader .innerColumn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.siteHeader .link{
+  padding: 1rem;
+  border: 1px solid yellow;
+  display: inline-block;
+}
+
+.siteHeader logo{
+
+}
+
+.siteHeader ul {
+  display: none;
+  cursor: pointer
+}
+
+.hamburgerMenu{
+
+}
+
+@media (min-width: 700px){
+  .siteHeader ul{
+    display: flex;
+    flex-direction: row;
+    letter-spacing: .48px;
+    line-height: 22.4px;
+    font-weight: lighter;
+  }
+  .hamburgerMenu {
+    display: none;
+  }
+}
+
+.siteHeader ul .link {
+  color: #fff;
+  text-decoration: none;
+  font-size: .75rem;
+  margin-left: 35px;
+  position: relative;
+  letter-spacing: .48px;
+  line-height: 22.4px;
+  font-weight: lighter;
+}
+
+.siteHeader ul .link:after {
+  content: " ";
+  width: 0;
+  transition: width .25s ease-out;
+  white-space: nowrap;
+  background: #fff;
+  height: 2px;
+  line-height: 2px;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  will-change: background;
+}
+
+.menu-options a.focus:after, .menu-options a:hover:after {
+  width: 100%;
+}
+
+.logo{
+  font-family: 'start';
+  font-size: 12px;
+  display: inline-block;
+}
