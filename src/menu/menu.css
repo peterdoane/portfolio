@@ -31,8 +31,9 @@
 }
 
 .hamburgerMenu{
-
+  margin-top: 9px;
 }
+
 
 @media (min-width: 700px){
   .siteHeader ul{

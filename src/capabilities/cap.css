@@ -4,6 +4,10 @@ section.capabilities{
   font-family: 'National';
 }
 
+.capabilities .imageWrapper{
+  max-width: 400px;
+}
+
 .capabilities .capabilityList{
   display: flex;
   flex-direction: column;
@@ -31,11 +35,20 @@ section.capabilities{
   line-height: 22px;
 }
 
-@media(min-width:700px){
+.capabilities .innerColumn{
+  padding-bottom: 100px;
+}
+
+
+@media(min-width:1025px){
   .capabilities .innerColumn{
     display: flex;
     flex-direction: row;
     align-items:top;
+    padding-top: 110px;
+  }
+  .capabilities h3{
+    font-size: 30px;
   }
   .capabilities h2{
     font-size:  35px;

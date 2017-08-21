@@ -3,20 +3,59 @@
   color: white;
 }
 
-.services .innerContainer{
+.service{
+  font-family: 'GT';
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.services .innerColumn{
+  position: relative;
+  padding-bottom: 100px;
   display: flex;
-  flex-direction: column
+  flex-direction: column;
+}
+
+.services .innerColumn:before{
+  display: block;
+  width: calc(100% - 40px);
+  left: 20px;
+  opacity: .5;
+  height: 1px;
+  background-color: grey;
+  position: absolute;
+  top: 0;
+  content: "";
 }
 
 .services h2{
   padding: 2rem 0;
-  font-size:  35px;
+  font-size: 18px;
 }
 
 .services ul{
   column-count: 2;
 }
 
+@media(min-width:668px){
+  .services .innerColumn{
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 60px;
+  }
+  .services ul{
+    flex-grow: 1;
+  }
+  .services h2{
+    padding: 0;
+    padding-right: 60px;
+  }
+}
+@media(min-width:768px){
+  .services ul{
+    column-count: 3;
+  }
+}
 
 
 

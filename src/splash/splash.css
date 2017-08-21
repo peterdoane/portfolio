@@ -6,7 +6,7 @@
 }
 
 .splash .innerColumn{
-  height: 90vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -17,6 +17,22 @@
 h1{
   bottom:0;
   left: 0;
+}
+
+.splashText{
+  font-size: 40px;
+}
+
+@media (max-width: 700px){
+  .splashText{
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 32px;
+    font-weight: 100;
+    line-height: 35px;
+    width: 342px;
+    word-spacing: -2.56px;
+  }
 }
 /*.splash-text {
   width: 100%;

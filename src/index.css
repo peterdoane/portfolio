@@ -98,15 +98,21 @@ body {
 
 .container .innerColumn{
 	width: 100%;
-	max-width: 960px;
+	max-width: 1200px;
 	margin-right: auto;
 	margin-left: auto;
-	border: solid 1px red;
+	/*border: solid 1px red;*/
 	padding: 1rem;
 }
 
 @media(min-width: 700px){
 	.innerColumn{
-		height: 100vh;
+		/*border: 2px solid green;*/
 	}
+}
+
+figure img{
+	display:block;
+	width:100%;
+	height: auto;
 }

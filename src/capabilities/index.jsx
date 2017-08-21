@@ -6,7 +6,7 @@ const Capabilities = () => {
     <section className="container capabilities">
       <div className="innerColumn">
         <header>
-          <h2>Capabilites</h2>
+          <h2>Capabilities</h2>
         </header>
         <ul className="capabilityList">
           <li>
