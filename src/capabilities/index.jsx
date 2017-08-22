@@ -10,7 +10,7 @@ const Capabilities = () => {
         </header>
         <ul className="capabilityList">
           <li>
-            <h3>Developement</h3>
+            <h3>Development</h3>
             <p>No one cares about websites. People care about ideas. I translate ideas into code.
             </p>
           </li>
@@ -21,7 +21,7 @@ const Capabilities = () => {
           </li>
           <li>
             <h3>Experience</h3>
-            <p>Don’t make ads. Make movies and songs. Don’t talk about yourself. Talk about your user. And don’t oversell.
+            <p>Don’t make sites. Make experiences. Don’t talk about yourself. Talk about your user. And don’t oversell.
             </p>
           </li>
         </ul>

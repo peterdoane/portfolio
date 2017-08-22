@@ -37,11 +37,11 @@
   column-count: 2;
 }
 
-@media(min-width:668px){
+@media(min-width:768px){
   .services .innerColumn{
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 60px;
+    padding-top: 100px;
   }
   .services ul{
     flex-grow: 1;
@@ -49,6 +49,7 @@
   .services h2{
     padding: 0;
     padding-right: 60px;
+    font-size: 1.75rem;
   }
 }
 @media(min-width:768px){

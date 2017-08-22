@@ -16,7 +16,7 @@ section.capabilities{
 .capabilities .capabilityList li{
   display: flex;
   flex-direction: row;
-  margin-bottom: 1rem;
+  margin-bottom: 60px;
 }
 
 .capabilities .capabilityList h3{
@@ -37,6 +37,7 @@ section.capabilities{
 
 .capabilities .innerColumn{
   padding-bottom: 100px;
+  
 }
 
 

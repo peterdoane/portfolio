@@ -7,18 +7,18 @@ const Services = () => {
         <div className="innerColumn">
           <header><h2>All Services</h2></header>
           <ul className="listing">
-            <li className="service">Art Direction</li>
-            <li className="service">Brand Identities</li>
-            <li className="service">Campaigns</li>
-            <li className="service">Creative Direction</li>
-            <li className="service">Content Creation</li>
-            <li className="service">Graphic Design</li>
-            <li className="service">Wordpress</li>
+            <li className="service">APIs</li>
+            <li className="service">CSS</li>
+            <li className="service">Debugging</li>
+            <li className="service">Javascript</li>
             <li className="service">Typography</li>
+            <li className="service">Mobx/Redux</li>
+            <li className="service">Node.js</li>
+            <li className="service">React/React-Native</li>
+            <li className="service">Responsive Design</li>
             <li className="service">UX/UI Design</li>
             <li className="service">Website/App Design</li>
-            <li className="service">Audio/Video Production</li>
-            <li className="service">Photography</li>
+            <li className="service">Wordpress</li>
           </ul>
         </div>
       </section>

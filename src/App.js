@@ -4,6 +4,10 @@ import Menu from './menu/';
 import Project from './project1';
 import Capabilites from './capabilities';
 import Services from './services';
+import LatestWork from './latestWork';
+import Footer from './footer';
+
+
 
 import './App.css';
 
@@ -16,6 +20,8 @@ class App extends Component {
           <Project />
           <Capabilites />
           <Services />
+          <LatestWork />
+          <Footer />
         </div>
     );
   }

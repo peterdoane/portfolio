@@ -1,0 +1,74 @@
+.latest header{
+  color: black;
+  padding: 20px 0;
+}
+.latest h2{
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.latest p{
+  line-height: 1.5rem;
+}
+
+.latest .projectList{
+  display: flex;
+  flex-direction: column;
+}
+
+.latest h3{
+  margin-top: 7px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.latest .projectList .projectsSection {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  cursor: pointer;
+}
+
+.latest .projectList .projectsSection:not(:first-of-type) {
+  margin-top: 20px;
+}
+
+.latest footer{
+  margin-top: 35px;
+  cursor: pointer;
+}
+
+.latest .button{
+  border: 1px solid purple;
+  color: purple;
+  display: inline-block;
+  padding: 20px 10px;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media(min-width:768px){
+  .latest .projectList{
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 0;
+    justify-content: space-between;
+  }
+  .latest .projectsSection{
+    flex-basis: 49%;
+  }
+  .latest .projectList .projectsSection:not(:first-of-type) {
+    margin-top: auto;
+  }
+  .latest .projectList .projectsSection{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media(min-width:1025px){
+  /*.latest .innerWrapper{
+    height: 100vh;
+  }*/
+}
