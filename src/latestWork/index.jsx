@@ -17,8 +17,8 @@ const LatestWork = () => {
             <figure>
               <img src="images/360modernlatest.png"/>
             </figure>
-            <h3>Attractions</h3>
-            <p>Brand identity / web design</p>
+            <h3>360modern</h3>
+            <p>React / Real Esate </p>
           </a>
           </li>
           <li className="projectsSection">
@@ -26,21 +26,21 @@ const LatestWork = () => {
               <img src="images/attractions1.png"/>
             </figure>
             <h3>Attractions</h3>
-            <p>Brand identity / web design</p>
-          </li>
-          <li className="projectsSection">
-            <figure>
-              <img src="https://placehold.it/1600x900"/>
-            </figure>
-            <h3>Attractions</h3>
-            <p>Brand identity / web design</p>
+            <p>React-Native</p>
           </li>
           <li className="projectsSection">
             <figure>
               <img src="images/caustic.png"/>
             </figure>
             <h3>Attractions</h3>
-            <p>Brand identity / web design</p>
+            <p>Acrostic playlist maker</p>
+          </li>
+          <li className="projectsSection">
+            <figure>
+              <img src="images/beets.png"/>
+            </figure>
+            <h3>Attractions</h3>
+            <p>Multi-user drum machine</p>
           </li>
         </ul>
         <footer>
