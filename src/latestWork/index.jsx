@@ -15,7 +15,7 @@ const LatestWork = () => {
           <li className="projectsSection">
           <a>
             <figure>
-              <img src="https://placehold.it/1600x900"/>
+              <img src="images/360modernlatest.png"/>
             </figure>
             <h3>Attractions</h3>
             <p>Brand identity / web design</p>
@@ -23,7 +23,7 @@ const LatestWork = () => {
           </li>
           <li className="projectsSection">
             <figure>
-              <img src="https://placehold.it/1600x900"/>
+              <img src="images/attractions1.png"/>
             </figure>
             <h3>Attractions</h3>
             <p>Brand identity / web design</p>
@@ -37,7 +37,7 @@ const LatestWork = () => {
           </li>
           <li className="projectsSection">
             <figure>
-              <img src="https://placehold.it/1600x900"/>
+              <img src="images/caustic.png"/>
             </figure>
             <h3>Attractions</h3>
             <p>Brand identity / web design</p>
