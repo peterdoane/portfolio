@@ -6,10 +6,10 @@ const LatestWork = () => {
     <section className="container latest">
       <div className="innerColumn">
         <header>
+          <h2>Latest Work</h2>
           <p>
             Big, small, online, offline, local or international.Size doesn 't matter. We work on diverse projects for top brands as well as for cool startups. Check out some of our favorites.
           </p>
-          <h2>Latest Work</h2>
         </header>
         <ul className="projectList">
           <li className="projectsSection">

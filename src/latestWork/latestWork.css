@@ -3,12 +3,18 @@
   padding: 20px 0;
 }
 .latest h2{
-  font-size: 24px;
+  font-size: 32px;
   margin-top: 10px;
+  font-family: 'National';
+  margin-bottom: 15px;
 }
 
 .latest p{
-  line-height: 1.5rem;
+  font-size: 1.0625rem;
+  line-height: 1.305;
+  font-family: 'National';
+  letter-spacing: .024em;
+  margin-bottom: 30px;
 }
 
 .latest .projectList{
