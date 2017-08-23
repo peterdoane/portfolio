@@ -11,17 +11,17 @@ const Capabilities = () => {
         <ul className="capabilityList">
           <li>
             <h3>Development</h3>
-            <p>No one cares about websites. People care about ideas. I translate ideas into code.
+            <p>No one cares about websites. People care about ideas. We translate ideas into code.
             </p>
           </li>
           <li>
             <h3>Design</h3>
-            <p>Your users are impatient. They're probably distracted too. Keep it simple and beautiful, fun and functional. Clean aesthetics supported by a strong concept is what I stand for.
+            <p>Web users are often impatient and distracted. We keep it simple and beautiful, fun and functional. The goal is to develop a strong concept supported by clean aesthetic to engage the user. 
             </p>
           </li>
           <li>
             <h3>Experience</h3>
-            <p>Don’t make sites. Make experiences. Don’t talk about yourself. Talk about your user. And don’t oversell.
+            <p>We don't make sites. We create experiences. Sharp, crisp, minimalistic. We are user focused and client driven.
             </p>
           </li>
         </ul>
