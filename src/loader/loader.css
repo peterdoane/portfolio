@@ -1,0 +1,22 @@
+.loader {
+     width: 100%;
+     position: absolute;
+     height: 100%;
+     z-index: 10;
+     background: white;
+     top: 0px;
+     transition: top .8s ease-in;
+ }
+
+ .transition {
+     top: 1000px;
+ }
+
+ .loaderButton {
+   width: 200px;
+   height: 100px;
+   z-index: 20;
+   color: white;
+   background: black;
+   top: 45%;
+ }

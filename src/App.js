@@ -6,6 +6,8 @@ import Capabilites from './capabilities';
 import Services from './services';
 import LatestWork from './latestWork';
 import Footer from './footer';
+import Loader from './loader';
+
 
 
 
@@ -15,6 +17,7 @@ class App extends Component {
   render() {
     return (
         <div>
+          <Loader />
           <Menu />
           <Splash />
           <Project />
