@@ -28,7 +28,7 @@ const LatestWork = () => {
             <h3>Attractions</h3>
             <p>React-Native</p>
           </li>
-          <li className="projectsSection">
+          {/* <li className="projectsSection">
             <figure>
               <img src="images/caustic.png"/>
             </figure>
@@ -41,7 +41,7 @@ const LatestWork = () => {
             </figure>
             <h3>Attractions</h3>
             <p>Multi-user drum machine</p>
-          </li>
+          </li> */}
         </ul>
         <footer>
           <a className="button">View All Work</a>
