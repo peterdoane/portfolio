@@ -36,7 +36,7 @@ class Menu extends Component {
         return (
             <div className="loader-logo-wrapper">
                 <span className="loader-logo-bg" style={{transform: loader_tranistion ? "translateY(150%)" : "translateY(-150%)"}}></span>
-                <span className="loader-logo">Garvit</span>
+                <span className="loader-logo">PETE</span>
             </div>
         );
     }
