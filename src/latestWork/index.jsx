@@ -28,20 +28,6 @@ const LatestWork = () => {
             <h3>Attractions</h3>
             <p>React-Native</p>
           </li>
-          {/* <li className="projectsSection">
-            <figure>
-              <img src="images/caustic.png"/>
-            </figure>
-            <h3>Attractions</h3>
-            <p>Acrostic playlist maker</p>
-          </li>
-          <li className="projectsSection">
-            <figure>
-              <img src="images/beets.png"/>
-            </figure>
-            <h3>Attractions</h3>
-            <p>Multi-user drum machine</p>
-          </li> */}
         </ul>
         <footer>
           <a className="button">View All Work</a>
