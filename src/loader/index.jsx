@@ -1,58 +1,57 @@
+import React, { Component } from 'react';
+import './loader.css';
 
- import React, { Component } from 'react';
- import './loader.css';
+class Menu extends Component {
 
- class Loader extends Component {
-     constructor() {
-       super();
-       this.state = {
-         show_loader: true,
-         is_transitioning: false
-       }
-
-     }
-
-     componentDidMount() {
-       setTimeout(this.hideLoader, 1000);
-     }
-
-     hideLoader = () => {
-       this.setState({
+    constructor() {
+        super();
+        this.state = {
             show_loader: true,
-            is_transitioning: true
+            is_transitioning: false,
+            loader_tranistion: false
+        };
+    }
+
+    componentDidMount() {
+        setTimeout(this.animateLoaderText, 700);
+    }
+
+    animateLoaderText = () => {
+        const {loader_tranistion} = this.state;
+        this.setState({
+            loader_tranistion: !loader_tranistion
         });
-        setTimeout(function() {
-          this.setState({
-              show_loader: false,
-              is_transitioning: false
-          });
-       }.bind(this), 200);
-     }
+        setTimeout(this.hideLoader, 1000);
+    }
+
+    hideLoader = () => {
+        const {is_transitioning} = this.state;
+        this.setState({
+            is_transitioning: !is_transitioning
+        });
+    }
+
+    renderLoaderText = () => {
+        const {loader_tranistion} = this.state;
+        return (
+            <div className="loader-logo-wrapper">
+                <span className="loader-logo-bg" style={{transform: loader_tranistion ? "translateY(150%)" : "translateY(-150%)"}}></span>
+                <span className="loader-logo">Garvit</span>
+            </div>
+        );
+    }
 
     render() {
-      const {show_loader=false, is_transitioning=false} = this.state;
-
-      if (show_loader && is_transitioning) {
+        const {show_loader, is_transitioning} = this.state;
+        if (show_loader) {
             return (
-               <div>
-                  <div className="container loader transition">
+                <div className="container loader" style={{transform: is_transitioning ? "translateY(150%)" : "translateY(0)"}}>
+                    {this.renderLoaderText()}
+                </div>
+            );
+        }
+        return null;
+    }
+}
 
-                  </div>
-                  <button  className="loaderButton"> Loading </button>
-                  </div>
-              );
-       } else if (show_loader) {
-          return (
-            <div>
-              <div className="container loader">
-              </div>
-              <button  className="loaderButton"> Loading </button>
-              </div>
-          );
-      }
-      return null;
-
-     }
-  }
-
-export default Loader
+export default Menu;

@@ -1,9 +1,11 @@
 import React from 'react';
 import './latestWork.css';
+import ScrollEffect from '../scroll-effect';
 
 const LatestWork = () => {
 return (
 <section className="container latest">
+<ScrollEffect>
 <div className="innerColumn">
 <header>
 <h2>Latest Work</h2>
@@ -45,6 +47,7 @@ Big, small, online, offline, local or international.Size doesn 't matter. We wor
 <a className="button">View All Work</a>
 </footer>
 </div>
+</ScrollEffect>
 </section>
 );
 }
