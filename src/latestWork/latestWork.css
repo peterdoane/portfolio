@@ -45,13 +45,41 @@
 }
 
 .latest .button{
-  border: 1px solid purple;
-  color: purple;
+  border: 1px solid blue;
+  color: blue;
   display: inline-block;
   padding: 20px 10px;
   width: 100%;
   text-align: center;
   text-transform: uppercase;
+  font-family: 'GT'
+}
+
+.latest .button:hover{
+  border: 1px solid blue;
+  color: white;
+  display: inline-block;
+  padding: 20px 10px;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: blue;
+}
+
+@media(min-width:678px){
+  .latest .button{
+    width: 265px;
+    margin-left: 40%;
+    align-items: center;
+    
+  }
+}
+
+@media(min-width:678px){
+  .latest .button:hover{
+    width: 265px;
+    display: inline-block;
+  }
 }
 
 @media(min-width:768px){
