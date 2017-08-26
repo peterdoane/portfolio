@@ -64,6 +64,7 @@
   text-align: center;
   text-transform: uppercase;
   background-color: blue;
+  text-decoration: none;
 }
 
 @media(min-width:678px){
@@ -108,7 +109,7 @@
 }
 
 .content .content-overlay {
-  background: rgba(0,0,0,0.7);
+  background: rgba(0,0,255,.7);
   position: absolute;
   height: 100%;
   width: 100%;
@@ -164,6 +165,7 @@
 .content-details p{
   color: #fff;
   font-size: 0.8em;
+  font-family: 'National';
 }
 
 .content {

@@ -1,13 +1,13 @@
 import React from 'react';
 import { Switch, Route, Link } from 'react-router-dom';
-import Home from './home'
+import Home from './home';
 
 
 
 const App = () => {
   return (
     <div>
-      <Link to="/profile">Profile</Link>
+      <Link to="">Profile</Link>
       <Link to="/work">Work</Link>
           <Link to="/contact">Contact</Link>
     </div>
@@ -17,7 +17,7 @@ const App = () => {
 const Profile = () => {
   return (
     <div>
-      This is the Profile page
+      <Home />
     </div>
   )
 }
