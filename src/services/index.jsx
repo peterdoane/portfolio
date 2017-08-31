@@ -19,8 +19,8 @@ const Services = () => {
               <li className="service">React/React-Native</li>
               <li className="service">Responsive Design</li>
               <li className="service">UX/UI Design</li>
+              <li className="service">Unit Testing</li>
               <li className="service">Website/App Design</li>
-              <li className="service">Wordpress</li>
             </ul>
           </div>
         </ScrollEffect>

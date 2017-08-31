@@ -13,13 +13,14 @@ width: 100%;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
+margin-top: 20px;
 }
 .siteHeader .link:hover{
 text-decoration: none;
 }
 
 .siteHeader .link{
-padding: 1rem;
+/*padding: 1rem;*/
 /*border: 1px solid yellow;*/
 display: inline-block;
 
@@ -30,7 +31,7 @@ display: inline-block;
 }
 
 .siteHeader logo{
-
+  color:white;
 }
 
 .siteHeader ul {
@@ -78,10 +79,6 @@ line-height: 22.4px;
 font-weight: lighter;
 }*/
 
-.logoColor{
-  color:white;
-}
-
 .siteHeader a:hover:after {
 width: 100%;
 }
@@ -90,7 +87,7 @@ width: 100%;
 width: 100%;
 }
 
-.siteHeader a, a:hover {
+a, a:hover {
 cursor: pointer;
 text-decoration: underline;
 }
@@ -104,7 +101,7 @@ background: #fff;
 height: 2px;
 line-height: 2px;
 position: absolute;
-bottom: 12px;
+bottom: -2px;
 left: 0;
 will-change: background;
 }
@@ -117,4 +114,5 @@ width: 100%;
 font-family: 'start';
 font-size: 12px;
 display: inline-block;
+color: white;
 }

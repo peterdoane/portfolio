@@ -31,3 +31,48 @@ section{
   flex-direction: column;
   justify-content: space-between;
 }
+
+.interior, .interior .innerColumn{
+  height: 60vh;
+}
+
+.contacts {
+  color: black;
+}
+
+.contactTypeList {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red
+}
+
+.contactTypeList .contactType {
+  border: 1px solid blue;
+  display: flex;
+}
+
+.socialTypeList {
+  /*display: flex;
+  flex-direction: row;*/
+  border: 1px solid orange;
+}
+
+.socialTypeList .socialType {
+  border: 1px solid indigo;
+  /*display: flex;
+  flex-direction: row;*/
+}
+
+.contactType h2, .contactType .socialTypeList{
+  flex-basis: 50%;
+}
+
+@media(min-width:768px){
+  .contactTypeList{
+    flex-direction: row;
+
+  }
+  .contactTypeList .contactType{
+    flex-basis: 50%;
+  }
+}

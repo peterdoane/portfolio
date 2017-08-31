@@ -14,13 +14,13 @@ const Menu = () => {
         <nav>
           <ul>
             <li>
-              <Link className="link active" to="/profile">Profile</Link>
+              <Link className="link active" to="/profile"><span>Profile</span></Link>
             </li>
             <li>
-              <Link className="link" to="/work">Work</Link>
+              <Link className="link" to="/work"><span>Work</span></Link>
             </li>
             <li>
-              <Link className="link" to="/contact">Contact</Link>
+              <Link className="link" to="/contact"><span>Contact</span></Link>
             </li>
           </ul>
           <img src="images/ic_menu_white.png" className="hamburgerMenu" alt="360modernport" title="360modernport"/>

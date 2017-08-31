@@ -1,0 +1,51 @@
+.splash {
+  height: 100vh;
+  background: blue;
+  font-family: 'National';
+  font-size: 3rem;
+}
+
+.splash .innerColumn{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 1rem;
+}
+
+h1{
+  bottom:0;
+  left: 0;
+}
+
+.splashText{
+  font-size: 40px;
+}
+
+@media (max-width: 700px){
+  .splashText{
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 32px;
+    font-weight: 100;
+    line-height: 35px;
+    width: 342px;
+    word-spacing: -2.56px;
+  }
+}
+/*.splash-text {
+  width: 100%;
+  font-size: 2.8125rem;
+  padding: 0 8.33%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.splash-text-info {
+  width: 65%;
+  margin-bottom: 8.3333%;
+  vertical-align: baseline;
+  font-family: 'National';
+  word-spacing: -.08em;
+}*/
