@@ -1,9 +1,12 @@
 import React from 'react';
 import './footer.css';
 
-const Footer = () => {
+
+const Footer = (props) => {
+  const {is_absolute = false} = props;
+  const class_name = "container siteFooter " + (is_absolute ? 'abosoluteClassFooter' : '');
   return (
-    <footer className="container siteFooter">
+    <footer className={class_name}>
       <div className="innerColumn">
         <a className="link">
           <h1 className="logo">PETE</h1>

@@ -15,7 +15,7 @@ const ContactPage = () => {
         <div className="innerColumn">
           <ul className="contactTypeList">
             <li className="contactType">
-              <h2>Title</h2>
+              <h2>Visit Us</h2>
               <ul className="socialTypeList">
                 <li className="socialType">
                   <a className="link">Contact Links</a>
@@ -35,7 +35,7 @@ const ContactPage = () => {
               </ul>
             </li>
             <li className="contactType">
-              <h2>Title</h2>
+              <h2>Stalk Us</h2>
               <ul className="socialTypeList">
                 <li className="socialType">
                   <a className="link">Contact Links</a>

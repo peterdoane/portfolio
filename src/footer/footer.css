@@ -8,3 +8,8 @@
   flex-direction: row;
   align-items: center;
 }
+
+.abosoluteClassFooter{
+  bottom:0;
+  position:fixed;
+}

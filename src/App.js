@@ -21,7 +21,6 @@ class App extends Component {
           <Loader />
           <Menu />
           <Routes />
-          <Footer />
         </div>
     );
   }

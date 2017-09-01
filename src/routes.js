@@ -2,6 +2,7 @@ import React from 'react';
 import { Switch, Route, Link } from 'react-router-dom';
 import Home from './home';
 import ContactPage from './contactPage';
+import Footer from './footer';
 
 
 const App = () => {
@@ -34,6 +35,7 @@ const Contact = () => {
   return (
     <div>
       <ContactPage />
+      <Footer is_absolute={true} />
     </div>
   )
 }
