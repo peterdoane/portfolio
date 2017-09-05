@@ -15,7 +15,8 @@ class ScrollEffect extends Component {
     }
 
     componentDidMount() {
-        this.handleScroll();
+        const {delay=0} = this.props;
+        setTimeout(this.handleScroll, delay);
     }
 
     componentWillUnmount() {
@@ -36,25 +37,33 @@ class ScrollEffect extends Component {
     }
 
     handleScroll = () => {
-        const element = this.node;
-        const top = this.posTop();
-        const elementPositionY = element.getBoundingClientRect().top + top;
-        const scrollPositionY = window.scrollY ? window.scrollY : window.pageYOffset;
-        const windowHeight = window.innerHeight;
-        if (scrollPositionY + windowHeight >= elementPositionY) {
-            this.setState({
-              animated: true,
-              is_transitioning: true
-            });
+        const {is_active=true, try_reload=false} = this.props;
+        const {animated} =this.state;
+        if (is_active && !animated) {
+            const element = this.node;
+            const top = this.posTop();
+            const eleTop = element ? element.getBoundingClientRect().top : 0;
+            const elementPositionY = eleTop + top;
+            const scrollPositionY = window.scrollY ? window.scrollY : window.pageYOffset;
+            const windowHeight = window.innerHeight;
+            if (scrollPositionY + windowHeight >= elementPositionY) {
+                this.setState({
+                  animated: true,
+                  is_transitioning: true
+                });
+            } else {
+                try_reload && setTimeout(this.handleScroll, 0);
+            }
         }
     }
 
     render() {
         const {is_transitioning} = this.state;
+        const {translateY_initial=4, delay=0} = this.props;
+        setTimeout(this.handleScroll, delay);
         const style = {
-            transform: is_transitioning ? "translateY(0)" : "translateY(4%)",
-            opacity: is_transitioning ? "1" : "0",
-            ...this.props.style
+            transform: is_transitioning ? "translateY(0)" : "translateY(" + translateY_initial + "%)",
+            opacity: is_transitioning ? "1" : "0"
         };
         return (
             <div

@@ -1,5 +1,4 @@
 import React from 'react';
-import Loader from './loader';
 import Splash from './splash/';
 import Project from './project1';
 import Capabilites from './capabilities';
@@ -11,7 +10,6 @@ import Footer from './footer';
 const Home = () => {
   return (
     <div>
-      <Loader />
       <Splash />
       <Project />
       <Capabilites />
